@@ -1,0 +1,16 @@
+.TaskManagerApp {
+  background: #4b87bf;
+  height: 100vh;
+  /* display: flex; */
+}
+
+.AppHeader {
+  background: rgba(119, 142, 96, 0.8);
+  color: #ffffff;
+  padding: 10px 0;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+}

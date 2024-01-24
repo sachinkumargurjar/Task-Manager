@@ -1,0 +1,72 @@
+/* AddList.css */
+
+.Add-List-Editor {
+  background: #ffffff;
+  border: 1px solid #dfe3e6;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  transition: background 0.3s ease;
+}
+
+/* ListEditor.css */
+
+.List-Title-Edit {
+  position: relative;
+}
+
+.List-Title-Textarea {
+  width: calc(100% - 20px);
+  border: none;
+  padding: 8px;
+  border-radius: 3px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 8px;
+  resize: none;
+}
+
+.List-Title-Textarea:focus {
+  outline: none;
+  box-shadow: 0 0 4px rgba(66, 139, 202, 0.75);
+}
+
+.List-Title-Edit ion-icon {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  cursor: pointer;
+  color: #d9534f;
+}
+
+/* EditButtons.css */
+
+.Edit-Buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 8px;
+}
+
+.Edit-Button,
+.Edit-Button-Cancel {
+  cursor: pointer;
+  padding: 6px 10px;
+  border-radius: 3px;
+  margin-left: 8px;
+  transition: background 0.3s ease;
+}
+
+.Edit-Button:hover {
+  background: #5cb85c; /* Green */
+  color: #fff;
+}
+
+.Edit-Button-Cancel {
+  background: #d9534f; /* Red */
+  color: #fff;
+}
+
+.Edit-Button-Cancel:hover {
+  background: #c9302c;
+}

@@ -1,0 +1,47 @@
+.Card {
+  position: relative;
+  cursor: pointer;
+  background: #ffffff;
+  margin: 8px;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 4px rgba(9, 45, 66, 0.1);
+  font-size: 16px;
+  overflow-wrap: break-word;
+  min-height: 18px;
+  transition: background 0.3s ease;
+
+  &:hover {
+    background: #f5f6f7;
+  }
+}
+
+.Card-Icons {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.Card-Icon {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  margin: 2px;
+  color: rgba(0, 0, 0, 0.7);
+  background: #f5f6f7;
+  opacity: 0.9;
+  transition: opacity 0.3s ease, background 0.3s ease;
+
+  &:hover {
+    opacity: 1;
+    background: rgba(220, 220, 220, 1);
+  }
+}
