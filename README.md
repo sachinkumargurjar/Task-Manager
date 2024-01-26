@@ -1,5 +1,8 @@
 Sachin Kumar Gurjar
-
+Run: 
+    1-> npm install || npm install --force (if you get some error on npm or other,dependency compatibility)
+    2-> npm start
+    
 How would your tables and apis change for the following scenarios. What tables and api endpoints would you add? Which tables and api endpoints would need to be updated?
 
 1. If a user can create and edit stages for a particular board. For example instead of Open > In Progress > Done if they want the stages of their task board to be Read > Working > Reviewing > Completed
